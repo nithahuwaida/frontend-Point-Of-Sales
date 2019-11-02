@@ -1,0 +1,41 @@
+.toolbar{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: aqua;
+    height: 70px;
+}
+.toolbar_navigation{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1em;
+}
+.toolbar_logo h1{
+    color : black;
+    text-decoration: none;
+    font-family: "Airbnb Cereal App Book";
+    font-size: 1.5em;
+}
+.spacer{
+    flex : 1;
+}
+.toolbar_navigation_items ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.toolbar_navigation_items li{
+    padding : 0 0.5em;
+}
+.toolbar_navigation_items a{
+    color : white;
+    text-decoration: none;
+    font-family: "Airbnb Cereal App Book";
+}
+.toolbar_navigation_items a:hover,
+.toolbar_navigation_items a:active{
+    color : black;
+}
